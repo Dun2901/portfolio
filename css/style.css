@@ -12,8 +12,8 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Poppins";
-  color: #fef4f4;
-  background: linear-gradient(90deg, #a1c4fd, #c2e9fb);
+  color: #fff2f2;
+  background: linear-gradient(90deg, #e1c5c4, #f3eed9);
 }
 
 .card {
@@ -36,7 +36,7 @@ img {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  border: 4px solid #f65151;
+  border: 4px solid #a26979;
   margin: 0 auto;
   transform: translateY(25px);
   overflow: hidden;
@@ -48,7 +48,7 @@ img {
 }
 
 .card p {
-  color: #f65151;
+  color: #ff7181;
 }
 
 .card__social {
@@ -62,21 +62,21 @@ img {
 }
 
 .card__social a:hover {
-  color: #ee3e3e;
+  color: #a26979;
 }
 
 .card button {
   width: 150px;
   height: 40px;
-  border: 1px solid #f65151;
+  border: 1px solid #a26979;
   border-radius: 10px;
   background: transparent;
-  color: #fef4f4;
+  color: #fff2f2;
   transition: 0.5s;
 }
 
 .card button:hover {
-  background: #ee3e3e;
+  background: #a26979;
   cursor: pointer;
 }
 
